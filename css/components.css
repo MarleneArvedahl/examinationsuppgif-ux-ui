@@ -1,0 +1,180 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.log__pic {
+    width: 140px;
+}
+.log {
+    max-width: 960px;
+    display: flex;
+    border-bottom: solid 2px #A98467;
+}
+
+.log__companyName {
+    font-family: Shadows Into Light;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.log__subheading {
+    font-family: rajdhani;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.input {
+    max-width: 500px;
+    min-width: 275px;
+    display: flex;
+    flex-direction: column;
+    border: solid 4px #A98467;
+    background-color: #F0EAD2;
+    border-radius: 8px;
+    padding: 20px;
+
+    & input {
+        max-width: 200px;
+        margin: 8px;
+        border-radius: 6px;
+        padding: 7px;
+        font-family: rajdhani;
+        font-weight: 400;
+    }
+
+    & .inlog-text {
+        margin: 0;
+        font-family: rajdhani;
+        font-weight: 400;
+    }
+
+    & .middleGreenButton {
+        max-width: 100px;
+        padding: 7px;
+        background-color: #ADC178;
+        border: solid 2px #6C584C;
+        border-radius: 8px;
+        font-family: rajdhani;
+        font-weight: 400;
+        font-size: 1rem;
+        color: white;
+    }
+}
+
+.input__header {
+
+    display: flex;
+    justify-content: center;
+    
+    & .heading {
+        max-width: 275px;
+        font-family: Shadows Into Light;
+        font-size: 1.5rem;
+        padding: 15px;
+        font-weight: 400;
+        margin: 0;
+    }
+}
+
+
+.items-card {
+    display: flex;
+    border: solid 4px #ADC178;
+    border-radius: 8px;
+
+    & .items-card__textBox {
+        padding: 0px 0px 10px 10px;
+
+        & .items-card__title {
+            font-family: rajdhani;
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+
+        & .items-card__pText {
+            font-family: rajdhani;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+    }
+
+    & .items-card__buttonBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+
+        & .add-button {
+            background-color: #DDE5B6; 
+            border: solid 2px #A98467;
+            border-radius: 8px;
+            font-family: rajdhani;
+            font-weight: 400;
+            font-size: 1rem;
+            padding: 10px;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #6C584C;
+
+    & .menu__alternative {
+        font-family: Shadows Into Light;
+    }
+}
+
+.information {
+    border: 2px solid #6C584C;
+    background-color: #F0EAD2;
+    padding: 20px;
+    border-radius: 8px;
+
+    & .information__text {
+        font-family: Shadows Into Light;
+        line-height: 2;
+    
+    }
+}
+
+.greenButton {
+    background-color: #ADC178;
+    font-family: Shadows Into Light;
+    padding: 5px 15px 5px 15px;
+    border: solid 2px #6C584C;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #DDE5B6;
+    padding: 25px;
+
+    & .footer__header {
+        font-family: Shadows Into Light;
+    }
+
+    & .footer__text {
+        font-family: rajdhani;
+        font-weight: 400;
+        line-height: 2;
+    }
+}
+
+.dog {
+    width: 170px;
+}
+
+.lightGreenButton {
+    background-color: #DDE5B6;
+    font-family: rajdhani;padding: 5px 15px 5px 15px;
+    border: solid 2px #6C584C;
+    border-radius: 8px;
+}

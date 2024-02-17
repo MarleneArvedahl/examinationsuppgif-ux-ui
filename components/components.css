@@ -12,6 +12,7 @@ body {
     max-width: 960px;
     display: flex;
     border-bottom: solid 2px #A98467;
+    padding: 10px;
 }
 
 .log__companyName {
@@ -38,6 +39,7 @@ body {
     background-color: #F0EAD2;
     border-radius: 8px;
     padding: 20px;
+    margin: 20px 20px 30px 20px;
 
     & input {
         max-width: 200px;
@@ -87,9 +89,13 @@ body {
     display: flex;
     border: solid 4px #ADC178;
     border-radius: 8px;
+    margin: 15px;
+    background-color: white;
 
     & .items-card__textBox {
         padding: 0px 0px 10px 10px;
+        width: 50%;
+        
 
         & .items-card__title {
             font-family: rajdhani;
@@ -119,16 +125,21 @@ body {
             font-size: 1rem;
             padding: 10px;
         }
+
+        & #redButton {
+            background-color: #F06666;
+            color: white;
+        }
     }
 }
 
 .menu {
     display: flex;
     justify-content: space-around;
-    border-top: 2px solid #6C584C;
 
     & .menu__alternative {
         font-family: Shadows Into Light;
+        margin-top: 3px;
     }
 }
 
@@ -137,6 +148,7 @@ body {
     background-color: #F0EAD2;
     padding: 20px;
     border-radius: 8px;
+    margin: 15px;
 
     & .information__text {
         font-family: Shadows Into Light;
@@ -151,6 +163,7 @@ body {
     padding: 5px 15px 5px 15px;
     border: solid 2px #6C584C;
     border-radius: 8px;
+    max-width: 130px;
 }
 
 footer {
@@ -165,6 +178,13 @@ footer {
         font-family: rajdhani;
         font-weight: 400;
         line-height: 2;
+    }
+
+    & .majBrittText {
+        margin: 0;
+        font-family: rajdhani;
+        font-weight: 400;
+
     }
 }
 

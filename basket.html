@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="components/components.css" />
+        <link rel="stylesheet" href=" css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <section class="log">
+            <img class="log__pic" src="house.svg" alt="" />
+            <article>
+                <h1 class="log__companyName">STICKAN</h1>
+                <h2 class="log__subheading">LÅNA - JOBBA - LÄMNA</h2>
+            </article>
+        </section>
+
+        <div class="basket-wrapper">
+            <section class="information">
+                <p class="information__text">
+                    Nedan visas din lånekorg. När du väljer att trycka på “låna
+                    och checka ut” kommer du till ditt kvitto där du enkelt kan
+                    se datum då grejerna skall tillbaka till samma ställe där de
+                    hämtas, alltså vårt gemensamma förråd. Har du övriga frågor, hör
+                    av dig till Maj-Britt på 0735172553.
+                </p>
+            </section>
+
+            <article class="items-card">
+                <section class="items-card__textBox">
+                    <h3 class="items-card__title">Tigersåg</h3>
+                    <p class="items-card__pText">Medföljer:</p>
+                    <p class="items-card__pText">Sågblad, batteri och laddare</p>
+                </section>
+                <section class="items-card__buttonBox">
+                    <button id="redButton" class="add-button">Tag bort</button>
+                </section>
+            </article>
+            <article class="items-card">
+                <section class="items-card__textBox">
+                    <h3 class="items-card__title">Gräsklippare</h3>
+                    <p class="items-card__pText">Övrig info::</p>
+                    <p class="items-card__pText">Husqvarna LB251S</p>
+                </section>
+                <section class="items-card__buttonBox">
+                    <button id="redButton" class="add-button">Tag bort</button>
+                </section>
+            </article>
+
+            <div class="basket__loggedOutButtonWrapper">
+                <button id="basketButton" class="greenButton">Låna och checka ut</button>
+            </div>
+            <footer>
+                <h2 class="footer__header">Kontaktperson, Stickans Verktygsbibliotek</h2>
+                <p class="majBrittText">Maj-Britt Svensson</p>
+                <p class="majBrittText">0735172553</p>
+            </footer>
+        </div>
+    </body>
+</html>

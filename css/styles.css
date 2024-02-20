@@ -109,10 +109,89 @@ body {
     grid-column: auto;
 }
 
+.basket-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #F0EAD2;
+    margin-top: 15px;
 
+    & .information {
+        grid-column: auto;
+    }
 
+    & .items-card {
+        grid-column: auto;
+    }
 
+    & .basket__loggedOutButtonWrapper {
+        display: flex;
+        justify-content: center;
+        grid-column: auto;
+    }
+}
 
+#redButton {
+    min-width: 115px;
+}
 
+#basketButton {
+    min-width: 145px;
+    margin-bottom: 15px;
+}
 
+.receipt-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 
+    & .log {
+        grid-column: auto;
+    }
+
+    & .receipt {
+        grid-column: auto;
+        border: solid 3px #6C584C;
+        border-radius: 6px;
+        margin: 15px;
+        padding: 15px;
+
+        & .receipt__header {
+            display: flex;
+            justify-content: center;
+            font-family: Shadows Into Light;
+            font-weight: 400;
+            font-size: 1.2rem;
+        }
+
+        & .receipt__personInformation {
+            line-height: 0.25;
+            margin-bottom: 30px;
+            font-family: rajdhani;
+        }
+
+        & .receipt__orderDate {
+            line-height: 0.25;
+            margin-bottom: 30px;
+            font-family: rajdhani;
+            font-weight: 700;
+
+        }
+
+        & .receipt__bookingText {
+            line-height: 0.25;
+            margin-bottom: 30px;
+            font-family: rajdhani;
+        }
+        
+        & .receipt__footer {
+            border-radius: 8px;
+
+            & h2 {
+                font-family: Shadows Into Light;
+            }
+
+            & p {
+                font-family: rajdhani;
+            }
+        }
+    }
+}
